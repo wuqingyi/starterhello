@@ -3,7 +3,7 @@ package com.wqy.starterhello.services;
 public class HelloService {
     private String msg;
     public String  sayHello(){
-        return "Hello" + msg;
+        return "Hello " + msg;
     }
 
     public String getMsg(){
